@@ -14,6 +14,17 @@ export default {
 }
 </script>
 
+<script>
+import PwaPrompt from './components/PwaPrompt.vue'
+
+export default {
+  name: 'App',
+  components: {
+    PwaPrompt
+  }
+}
+</script>
+
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
