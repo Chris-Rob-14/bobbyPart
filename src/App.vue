@@ -5,21 +5,12 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
-
-<script>
 import PwaPrompt from './components/PwaPrompt.vue'
 
 export default {
   name: 'App',
   components: {
+    HelloWorld,
     PwaPrompt
   }
 }
